@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrubra as Últimas Novidades do mundo da Tecnologia">
+    <meta name="author" content="Julio Rafael">
+    <title>TechFlow News</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>TechFlow News</h1>
+        </center>
+        <hr>
+
+        <center>
+            <h2>Temas centrais</h2>
+            <nav>
+                <a href="index.html">Início</a> |
+                <a href="noticias.html">noticias</a> |
+                <a href="categoria_ia.html">Inteligência Artificial</a> |
+                <a href="ciberseguranca.html">cibersegurança</a> |
+                <a href="linux.html">Linux</a> |
+                <a href="games.html">Games</a>
+            </nav>
+            <details>
+                <summary>Assuntos mais buscados nos últimos dias</summary>
+
+                <nav>
+                    <a href="risco_das_ias.html">Riscos do avanço da IA</a> |
+                    <a href="GPT-6 Astra.html">OpenAI lança o GPT-6 Astra</a> |
+                    <a href="Anthopic.html">Anthropic avalia novo modelo de IA </a> |
+                    <a href="cisco.html">Vulnerabilidade críticaca no Secure Email Gateway</a> |
+                    <a href="sistema de energia.html">Falha de segurança em sistema de enerdia</a> |
+                    <a href="Tokyo Game Show.html">Tokyo Game Show</a>
+                </nav>
+            </details>
+            <hr>
+        </center>
+    </header>
+
+    <main>
+        <article>
+            <h2>Clonezilla Live recebe atualização</h2>
+            <p>O Clonezilla Live lançou a versão 3.3.3-37 com suporte a HTTP Boot, repositórios LUKS2, melhorias para telas de alta resolução e atualização do kernel Linux para a versão 7.1.13-1. A atualização também inclui melhorias nas ferramentas de clonagem de discos.</p>
+
+            <figure>
+                <img src="../imagem/Clonezilla.png" alt="" width="500">
+            </figure>
+
+            <h3>Clonezilla Live 3.3.3-37 adiciona suporte a HTTP Boot e LUKS2</h3>
+            <p>O Clonezilla Live 3.3.3-37 foi lançado como a versão mais recente do popular utilitário de clonagem e geração de imagens de disco de código aberto, trazendo um kernel Linux atualizado, suporte a inicialização HTTP, suporte a repositório LUKS2 e diversas melhorias para clonagem direta de disco.</p>
+            
+            <P>A nova versão é baseada nos repositórios Debian Sid de 13 de setembro de 2026. O kernel Linux foi atualizado para a versão 7.1.13-1. O Partclone, um componente essencial para geração de imagens de partição, também foi atualizado para a versão 0.3.50, que corrige um problema relacionado ao Btrfs.</p>
+
+            <p>Uma adição notável no Clonezilla Live 3.3.3-37 é o suporte expandido à inicialização de rede no Clonezilla Lite Server. Além da opção PXE Boot existente, os administradores agora podem usar clientes HTTP Boot, incluindo suporte ao Secure Boot ao inicializar via HTTP.</p>
+
+            <P>A versão também introduz suporte para repositórios LUKS2, expandindo as opções de armazenamento criptografado. Vários componentes de rede mais antigos foram limpos, substituindo comandos obsoletos do net-tools por equivalentes do iproute2 e removendo o código relacionado ao dhclient em favor do dhcpcd.</P>
+
+            <P>Os usuários que executam o Clonezilla em monitores modernos de alta resolução devem ver uma melhoria. O GRUB agora usa resoluções preferenciais de 1920×1080 e 1024×768, com uma opção automática e um fallback de 1024×768.</P>
+
+            <p>O processo de restauração do Clonezilla também foi otimizado. Ao restaurar uma imagem para o mesmo disco ou layout de partição, o software pode ignorar a conversão desnecessária de partição-imagem.</p>
+
+            <p>Além disso, o <i>cnvt-ocsiso-qcow2</i> O utilitário foi reformulado com modos de empacotamento VHD e ISO separados, prefixos configuráveis e uma correção para pânicos do kernel ao inicializar imagens VHD convertidas.</p>
+
+            <p>Vários bugs foram corrigidos nesta versão. Entre eles está uma solução para um LVM <i>sistema.dispositivos</i> problema de bloqueio que afeta o RHEL 10 e o AlmaLinux 10 ou mais recente. O Clonezilla também corrige um problema em que o tamanho ou o sistema de arquivos não podiam ser detectados em um disco vazio contendo um sistema de arquivos.</p>
+
+            <p>A versão também corrige um problema em que a interface de texto para escolher ações de desligamento, reinicialização ou comando não apareceu depois que uma operação de clonagem foi concluída. Além disso, a interface Partclone ncurses agora está habilitada para clonagem direta de dispositivo para dispositivo.</p>
+
+            <p>Outras mudanças incluem melhor manuseio de relógios de hardware de horário local, ajustes relacionados ao bloqueio do Secure Boot, uma correção para detecção automática de fontes de console em sistemas Full HD não KMS e a adição dos pacotes netpbm e fonts-unifont ao ambiente ao vivo.</p>
+
+        </article>
+    </main>
+
+    <footer>
+        <hr>
+
+        <h4>Fontes:<a href="https://linuxiac.com/clonezilla-live-3-3-3-37-adds-http-boot-and-luks2-support/?utm_source=chatgpt.com"target="_blank" rel="noopener noreferrer"> Linuxiac</a></h4>
+        <h2>Fique atento a todas as novidades</h2>
+
+        <p>Receba as principais notícias de tecnologia diretamente no seu e-mail.</p>
+
+        <form>
+            <label for="email">Seu e-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p>&copy; 2026 TechFlow News.</p>
+
+    </footer>
+</body>
+
+</html>

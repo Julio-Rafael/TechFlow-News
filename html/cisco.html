@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrubra as Últimas Novidades do mundo da Tecnologia">
+    <meta name="author" content="Julio Rafael">
+    <title>TechFlow News</title>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>TechFlow News</h1>
+        </center>
+        <hr>
+
+        <center>
+            <h2>Temas centrais</h2>
+            <nav>
+                <a href="index.html">Início</a> |
+                <a href="noticias.html">noticias</a> |
+                <a href="categoria_ia.html">Inteligência Artificial</a> |
+                <a href="ciberseguranca.html">cibersegurança</a> |
+                <a href="linux.html">Linux</a> |
+                <a href="games.html">Games</a>
+            </nav>
+            <details>
+                <summary>Assuntos mais buscados nos últimos dias</summary>
+
+                <nav>
+                    <a href="risco_das_ias.html">Riscos do avanço da IA</a> |
+                    <a href="GPT-6 Astra.html">OpenAI lança o GPT-6 Astra</a> |
+                    <a href="Anthopic.html">Anthropic avalia novo modelo de IA </a> |
+                    <a href="cisco.html">Vulnerabilidade críticaca no Secure Email Gateway</a>
+                </nav>
+            </details>
+            <hr>
+        </center>
+    </header>
+
+    <main>
+        <article>
+            <h2>Cisco corrige vulnerabilidade crítica no Secure Email Gateway</h2>
+            <p>A Cisco lançou uma correção para uma vulnerabilidade crítica identificada no Cisco Secure Email Gateway. A falha recebeu pontuação 9,8 no CVSS e estava sendo explorada ativamente, tornando a atualização dos sistemas afetados uma medida importante de segurança.</p>
+
+            <figure>
+                <img src="../imagem/Cisco.jpg" alt="" width="500">
+            </figure>
+
+            <h3>Criminosos exploram falha crítica no Cisco Secure Email Gateway</h3>
+            <p>Criminosos estão explorando ativamente uma falha crítica no Cisco Secure Email Gateway que permite a um e-mail malicioso conceder acesso irrestrito de administrador máximo ao sistema. A vulnerabilidade tem como solução alternativa aplicar o patch da companhia.</p>
+
+            <p>A falha, identificada como CVE-2026-76461, recebeu pontuação 9,8 no sistema de avaliação de vulnerabilidades CVSS (Common Vulnerability Scoring System) e afeta appliances físicos e virtuais do Secure Email Gateway, independentemente de como estiverem configurados. A informação foi divulgada pelo The Register, que acompanha o caso.</p>
+
+            <p>O problema está na forma como o software AsyncOS, sistema operacional dos appliances da Cisco, processa mensagens recebidas. Um atacante não precisa de credenciais: basta enviar uma mensagem especialmente construída para o gateway vulnerável. Se o ataque funcionar, o criminoso passa a executar comandos com privilégios de root, o nível mais alto de controle sobre o sistema.</p>
+
+            <h3>Exploração ativa e clientes afetados</h3>
+
+            <p>A Equipe de Resposta a Incidentes de Segurança de Produtos da Cisco tomou conhecimento da exploração ativa em setembro de 2026. A empresa não revelou quem está por trás dos ataques, há quanto tempo eles ocorrem nem quantas organizações foram comprometidas. A falha foi descoberta durante a resolução de um caso no Centro de Assistência Técnica da companhia.</p>
+
+            <p>Há indícios de que ao menos parte dos clientes do serviço de nuvem da empresa foi afetada. A Cisco diz que investigou dispositivos pertencentes ao seu serviço Secure Email Cloud e contatou diretamente os clientes cujos appliances apresentaram indicadores de possível comprometimento. A companhia afirma que todos os dispositivos do Secure Email Cloud já foram atualizados para a versão AsyncOS 16.5.0-780 e que trabalhos de remediação e recuperação estão em andamento.</p>
+
+            <h3>Versões corrigidas e prazo federal</h3>
+            <p>A Cisco corrigiu a vulnerabilidade nas versões AsyncOS 15.5.5-014, 16.0.4-302 e 16.5.0-780. A empresa recomenda fortemente que os clientes migrem para a versão mais recente, a 16.5.0-780.</p>
+
+            <p>A Fundação Shadowserver rastreou mais de 400 appliances Cisco Secure Email Gateway expostos à internet na segunda-feira (14). A falha também foi incluída no catálogo de Vulnerabilidades Exploradas Conhecidas da Agência de Segurança Cibernética e de Infraestrutura dos Estados Unidos (CISA), com determinação para que agências civis federais americanas realizem a remediação até 17 de setembro.</p>
+        </article>
+    </main>
+
+    <footer>
+
+        <hr>
+
+        <h4>Fontes:<a href="https://itforum.com.br/noticias/falha-critica-cisco/?utm_source=chatgpt.com"target="_blank" rel="noopener noreferrer">Itforum</a></h4>
+        <h2>Fique atento a todas as novidades</h2>
+
+        <p>Receba as principais notícias de tecnologia diretamente no seu e-mail.</p>
+
+        <form>
+            <label for="email">Seu e-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p>&copy; 2026 TechFlow News.</p>
+
+    </footer>
+</body>
+
+</html>
